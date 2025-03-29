@@ -24,8 +24,9 @@ const EditorCell = memo(
         form,
         editable: props.editable,
         editorType: props.editorType,
+        record: props.record
       }),
-      [mode, setMode, selected, setSelected, form, props.editable, props.editorType],
+      [mode, setMode, selected, setSelected, form, props.editable, props.editorType,props.record],
     );
 
     return (
